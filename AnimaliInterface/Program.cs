@@ -3,6 +3,7 @@
 Mucca m=new Mucca();
 m.FaiVerso();
 m.Dormi();
+m.Respira();
 
 Gatto g=new Gatto();
 g.FaiVerso();

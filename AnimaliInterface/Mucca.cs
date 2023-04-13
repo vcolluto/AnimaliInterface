@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimaliInterface
 {
-    internal class Mucca : IAnimale, IInteragisci
+    internal class Mucca : EssereVivente, IAnimale, IInteragisci
     {
         public void Accarezza()
         {
