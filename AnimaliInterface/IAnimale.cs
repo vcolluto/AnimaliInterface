@@ -11,6 +11,11 @@ namespace AnimaliInterface
         public void FaiVerso();
         public void Dormi();
 
+        public void Corri()
+        {
+            Console.WriteLine("sto correndo!");
+        }
+
        
        
     }

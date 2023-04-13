@@ -25,3 +25,4 @@ else
 
 a.FaiVerso();
 a.Dormi();
+a.Corri();

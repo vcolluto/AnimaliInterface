@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace AnimaliInterface
 {
-    internal class Mucca : IAnimale
+    internal class Mucca : IAnimale, IInteragisci
     {
+        public void Accarezza()
+        {
+            Console.WriteLine("Grazie!");
+        }
+
         public void Dormi()
         {
             Console.WriteLine("ZZZZMUUU");
@@ -16,6 +21,11 @@ namespace AnimaliInterface
         public void FaiVerso()
         {
             Console.WriteLine("MUUU");
+        }
+
+        public void Saluta()
+        {
+            Console.WriteLine("Ciao!");
         }
     }
 }
